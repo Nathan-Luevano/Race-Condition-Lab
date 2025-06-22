@@ -142,22 +142,3 @@ id       # Should show uid=0 (root)
 2. **Use temporary directories with proper permissions**: Restrict access to temp files
 3. **Implement mandatory access controls**: SELinux, AppArmor, etc.
 4. **Regular security audits**: Identify and fix TOCTOU vulnerabilities
-
-## Educational Value
-
-This lab demonstrates:
-- Real-world vulnerability exploitation techniques
-- The importance of secure coding practices in privileged programs
-- How seemingly minor timing issues can lead to critical security flaws
-- The effectiveness of modern OS protections against classic attack vectors
-
-## Warning
-
-This code is for educational purposes only. The techniques demonstrated should only be used in controlled environments for learning about security vulnerabilities. Unauthorized use of these techniques against systems you do not own is illegal and unethical.
-
-## Additional Notes
-
-- The attack success rate depends on system load and timing
-- Multiple attempts may be required for successful exploitation
-- Modern systems have various protections that make this attack more difficult
-- Understanding this vulnerability helps in writing more secure code and implementing proper protections
